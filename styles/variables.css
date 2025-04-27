@@ -4,6 +4,7 @@
     --accent-font-family: "PressStart2P-Regular", sans-serif;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
+    --font-weight-range: 400 700;
     --page-background-image: repeating-linear-gradient(
             to right,
             #d3d3d3 0,
