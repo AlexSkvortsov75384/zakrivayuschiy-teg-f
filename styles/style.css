@@ -261,6 +261,8 @@
 .modal::backdrop {
     background: #000;
     opacity: 0.75;
+    pointer-events: none;
+    
 }
 
 .modal__wrapper {
