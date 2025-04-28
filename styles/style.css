@@ -229,7 +229,9 @@
 
 .button__save svg {
     color: #fff;
-    block-size: calc(28px - (28 - 21) * ((100vw - 375px) / (1440 - 375)));
+    block-size: calc(21px + (28 - 21) * ((1440px - 100vw) / (1440 - 375)));
+    min-block-size: 21px;
+    max-block-size: 28px;
 }
 
 .button__text {
@@ -309,6 +311,12 @@
     line-height: 90%;
     text-transform: uppercase;
     color: #fff;
+    mix-blend-mode: difference;
+}
+
+
+.popup__icon {
+    inline-size: 39px;
     mix-blend-mode: difference;
 }
 
